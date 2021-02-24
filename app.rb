@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
 
  get "/" do
-   erb :friends
+   erb :reverse
  end
 
   get '/reverse' do
